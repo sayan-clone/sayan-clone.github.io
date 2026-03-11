@@ -117,8 +117,6 @@ document.querySelectorAll('.project-card').forEach(card => {
 });
 
 // ── Contact Form via EmailJS ───────────────────────────────
-// NOTE: Replace YOUR_PUBLIC_KEY, YOUR_SERVICE_ID, YOUR_TEMPLATE_ID
-// with your actual EmailJS credentials from emailjs.com
 const EMAILJS_PUBLIC_KEY  = 'RLkKezdt1cISo3uYV';
 const EMAILJS_SERVICE_ID  = 'sayan1997tolly@gmail.com';
 const EMAILJS_TEMPLATE_ID = 'template_uj070fa';

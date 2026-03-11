@@ -6,7 +6,7 @@
   <title>Sayan Bhattacharjee | Full Stack Developer</title>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
   <style>
     /* ─── CSS VARIABLES ─────────────────────────────────────── */
     :root {
@@ -96,7 +96,7 @@
     }
     [data-theme="light"] nav { background: rgba(244,244,249,0.75); }
     .nav-logo {
-      font-family:'Syne',sans-serif;
+      font-family:'Raleway',sans-serif;
       font-weight:800; font-size:1.3rem;
       letter-spacing:-0.5px;
       background: linear-gradient(135deg, var(--accent), var(--accent2));
@@ -164,7 +164,7 @@
       content:''; width:30px; height:1px; background:var(--accent);
     }
     h2 {
-      font-family:'Syne',sans-serif;
+      font-family:'Raleway',sans-serif;
       font-size:clamp(2rem, 4vw, 3rem);
       font-weight:800; line-height:1.1;
       margin-bottom:60px;
@@ -187,7 +187,7 @@
       animation: fadeUp 0.7s 0.2s forwards;
     }
     .hero-name {
-      font-family:'Syne',sans-serif;
+      font-family:'Raleway',sans-serif;
       font-size:clamp(3.5rem, 8vw, 7rem);
       font-weight:800; line-height:0.95;
       letter-spacing:-2px;
@@ -255,7 +255,7 @@
     }
     .stat-item { display:flex; flex-direction:column; gap:4px; }
     .stat-num {
-      font-family:'Syne',sans-serif;
+      font-family:'Raleway',sans-serif;
       font-size:2.5rem; font-weight:800;
       background: linear-gradient(135deg, var(--accent), var(--accent2));
       -webkit-background-clip:text; -webkit-text-fill-color:transparent;
@@ -337,7 +337,7 @@
     }
     .exp-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:12px; }
     .exp-company {
-      font-family:'Syne',sans-serif;
+      font-family:'Raleway',sans-serif;
       font-size:1.25rem; font-weight:700;
     }
     .exp-badge {
@@ -369,7 +369,7 @@
     }
     .skill-category:hover { border-color:rgba(0,229,255,0.2); box-shadow:var(--glow); }
     .skill-cat-title {
-      font-family:'Syne',sans-serif; font-size:0.9rem; font-weight:700;
+      font-family:'Raleway',sans-serif; font-size:0.9rem; font-weight:700;
       text-transform:uppercase; letter-spacing:1px;
       color:var(--accent); margin-bottom:20px;
       display:flex; align-items:center; gap:10px;
@@ -417,7 +417,7 @@
     }
     .project-card:hover .project-num { color:rgba(0,229,255,0.12); }
     .project-title {
-      font-family:'Syne',sans-serif;
+      font-family:'Raleway',sans-serif;
       font-size:1.15rem; font-weight:700;
       margin-bottom:12px;
     }
@@ -1020,7 +1020,8 @@
   });
 
   // ── Contact Form via EmailJS ───────────────────────────────
-
+  // NOTE: Replace YOUR_PUBLIC_KEY, YOUR_SERVICE_ID, YOUR_TEMPLATE_ID
+  // with your actual EmailJS credentials from emailjs.com
   const EMAILJS_PUBLIC_KEY  = 'RLkKezdt1cISo3uYV';
   const EMAILJS_SERVICE_ID  = 'sayan1997tolly@gmail.com';
   const EMAILJS_TEMPLATE_ID = 'template_uj070fa';

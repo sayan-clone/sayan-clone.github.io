@@ -1,2 +1,2 @@
-This webpage is created tp know more about me Sayan!
+This webpage is created to know more about me Sayan!
 Please do visit the link https://sayan-clone.github.io/

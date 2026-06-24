@@ -40,7 +40,7 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
 
 // ── Typewriter ─────────────────────────────────────────────
 const roles = [
-  'Full Stack Java Developer',
+  'Senior Full Stack Java Developer',
   'Spring Boot Architect',
   'Microservices Engineer',
   'BFSI Domain Expert',
